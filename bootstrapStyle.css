@@ -1,3 +1,21 @@
-#id{
-    border: 5px solid black;
+.nav-item:hover .navbar{
+border-bottom: 2px solid yellow;
+}
+
+#card-section{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+}
+.card:hover{
+box-shadow: 5px 10px 20px 1px black;
+}
+@media(max-width:1000px){
+    #card-section{
+        visibility: hidden;
+    }
+}
+.progress{
+    margin: 40px 20px 20px 20px;
 }

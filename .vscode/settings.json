@@ -1,0 +1,7 @@
+{
+    "editor.autoClosingQuotes": "always",
+    "editor.autoSurround": "brackets",
+    "workbench.preferredDarkColorTheme": "Visual Studio Light",
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "editor.autoClosingBrackets": "always"
+}

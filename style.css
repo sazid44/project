@@ -44,18 +44,20 @@ body{
 }
 marquee{
     position: relative;
-    top: 500px;
+    top: 501px;
     background-color: white;
-    padding: 10px;
-    width: 1320px;
+    padding: 8px;
+    width:100%;
+    font-family: 'Galada', cursive;
+    box-sizing: border-box;
 }
 #breakingNews{
     position: relative;
-    top: 596px;
+    top: 597px;
     z-index: 1;
     right: 1080px;
     background-color: red;
-    padding: 4px;
+    padding: 5px;
 animation-name: anim;
 animation-duration: 2s;
 }
@@ -66,3 +68,4 @@ animation-duration: 2s;
 #style ul #rotate:hover {
     transform: rotate(360deg) ; 
 }
+
