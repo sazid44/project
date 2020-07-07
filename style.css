@@ -1,24 +1,14 @@
 #style ul li a{
-
-    text-decoration: none;
-    color: #787878;
-    font-size: 2rem;
-    font-family:  Georgia, Times, 'Times New Roman', serif;
-  
-}
+text-decoration: none;  color: #787878;  font-size: 2rem;  font-family:  Georgia, Times, 'Times New Roman', serif;
+  }
 #style ul li{
   list-style-type: none;
-  position: relative;
-  width: 150px;
-  float: left;
-  background-color: greenyellow;
-  margin: 10px;
-  padding: 20px;
+  position: relative;               width: 150px;
+  float: left; 
+  /*clear: both; */                    background-color: greenyellow;margin: 10px; padding: 20px;
 }
 #style ul li:hover{
-    background-color: khaki;
-    padding:10px;
-    margin: 8px;
+    background-color: khaki;  padding:10px;  margin: 8px;
     transition: all 0.3s;
     transform: scale(1);
 }
@@ -26,46 +16,40 @@
 span{
     visibility: hidden;
     position: absolute ;
-    top: 80px;
-    background-color: indigo;
-    width: 250px;
-    color: ivory;
-    padding: 10px;
+    top: 80px;  background-color:  indigo;width: 250px;    color: ivory;    padding: 10px;
     border-radius: 8px;
- 
-}
+ }
 .tooltip:hover span{
    visibility: visible;
- 
-}
+ }
+/*
 body{
     background-image: url('image/2.jpg');
     background-size: cover; 
-}
+      background-repeat: no-repeat,repeat-x,repeat-y;
+  background-position: right top;
+    background-attachment: scroll,fixed;
+    Background property shorthand
+      background: #ffffff url("img_tree.png") no-repeat right top;
+}*/
 marquee{
-    position: relative;
-    top: 501px;
-    background-color: white;
-    padding: 8px;
-    width:100%;
-    font-family: 'Galada', cursive;
+    position: relative; top: 501px; background-color: black; padding: 8px; width:100%; font-family: 'Galada', cursive;
     box-sizing: border-box;
 }
 #breakingNews{
     position: relative;
     top: 597px;
+    right: 1080px; 
     z-index: 1;
-    right: 1080px;
-    background-color: red;
-    padding: 5px;
+    background-color: red;  padding: 5px;
 animation-name: anim;
 animation-duration: 2s;
+
 }
 @keyframes anim{
     from{transform: translate(0px);}
     to{transform: translate(1090px);}
 }
-#style ul #rotate:hover {
+#style ul .rotate:hover {
     transform: rotate(360deg) ; 
 }
-
