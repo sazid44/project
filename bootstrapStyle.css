@@ -29,3 +29,9 @@ box-shadow: 5px 10px 20px 1px black;
     margin-top:1rem!important;
     max-width: 500px;
 }
+.navbar {
+    transform: translateY(-72px);
+}
+p{
+    margin-top: -90px;
+}
