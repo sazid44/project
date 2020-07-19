@@ -1,3 +1,4 @@
+
 .nav-item:hover .navbar{
 border-bottom: 2px solid yellow;
 }
@@ -6,32 +7,24 @@ border-bottom: 2px solid yellow;
     text-align: center;
 float: right;
 position: relative;
-top: -219px;
+top: -119px;
 left: -355px;
 }
 .card:hover{
 box-shadow: 5px 10px 20px 1px black;
 }
-@media(max-width:1000px){
-    #card-section{
-        visibility: hidden;
-    }
-}
-.progress{
-    margin: 40px 20px 20px 20px;
-}
+
 #carouselExampleIndicators{
     position: relative;
     left: 146px;
-    
-}
-.mt-5, .my-5 {
-    margin-top:1rem!important;
-    max-width: 500px;
-}
+    }
+    .mt-5, .my-5 {
+        margin-top:1rem!important;
+        max-width: 500px;
+    }
 .navbar {
     transform: translateY(-72px);
 }
-p{
+#collapseP{
     margin-top: -90px;
 }

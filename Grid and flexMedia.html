@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+       <!--*Style of Grid System-->
     <style>
         .div1{grid-area:header;}
         .div2{grid-area:menu;}
@@ -24,7 +25,7 @@
              background-color: black;
              border: 2px solid red;
              text-align: center;
-             font-size: 1.5rem;
+             font-size: 2rem;
              color: aliceblue;
          }
          /*This is grid-column-row                                                                                         
@@ -45,9 +46,57 @@
           grid-column: 2/span 4;
          }
       */
+
+     </style>
+     <!--*Style of Responsive navigation menu-->
+     <style>
+         #nav{
+             display: flex;
+            background-color: cadetblue;
+            justify-content: flex-end;
+         }
+         #nav a{
+            text-decoration: none; 
+            font-size: 1.5rem;
+            padding: 20px;
+           color: white;
+         }
+         #nav a:hover{
+             background-color: indigo;
+         }
+         @media(max-width:500px){
+            #nav{
+                flex-direction: column;
+                text-align: center;
+                background-color: orange;
+            } 
+            #nav a{
+                border: 2px solid rgb(124, 114, 133);
+
+            }
+            .grid-container{
+             display: grid;
+             grid-template-areas: 
+                 'header header header header header header'
+                 'menu menu menu menu menu menu'
+                 'main main main main main main'
+                 'aside aside aside aside aside aside'
+                 'footer footer footer footer footer footer';
+       }
+       .grid-container > div{
+        font-size: 1rem;
+         }
+         }
      </style>
 </head>
 <body>
+<div id="nav">
+    <a href="">Home</a>
+    <a href="">Image</a>
+    <a href="">Video</a>
+    <a href="">Audio</a>
+    <a href="">Contact us</a>
+</div><br><br>
 
     <div class="grid-container">
     <div class="div1">
