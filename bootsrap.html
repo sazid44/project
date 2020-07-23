@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrapStyle.css">
+    <link rel="stylesheet" href="bootStyle.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
    
 </head>
@@ -137,26 +138,19 @@
 </ul>
 <!--*Making a modal-->
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
+<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Login
 </button>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <div id="login">
+      <h1>Register</h1>
+      <form action="login_core.php">
+      <input type="text" name="" id="inp" placeholder='Username'><br><br>
+      <input type="text" name="" id="inp" placeholder='Password'><br><br>
+      <button class='btn-hover' type='submit'><span>LOGIN</span></button>
+      </form>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
   </div>
 </div>
 <!--*Awesome modal-->

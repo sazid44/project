@@ -2,16 +2,26 @@
 .nav-item:hover .navbar{
 border-bottom: 2px solid yellow;
 }
-
+.carousel-item{
+    filter: contrast(180%) sepia(100%) invert(100%) saturate(180%);
+   
+}
 #card-section{
     text-align: center;
 float: right;
 position: relative;
 top: -119px;
 left: -355px;
+filter: brightness(140%);
+filter: grayscale(100%);
 }
-.card:hover{
-box-shadow: 5px 10px 20px 1px black;
+.card-body{
+    filter: drop-shadow(5px 5px 5px red);
+
+}
+.card:hover .card-body{
+    filter: blur(5px);
+
 }
 
 #carouselExampleIndicators{
