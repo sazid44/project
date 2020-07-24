@@ -19,6 +19,7 @@ span{
 .nav-menu-item{
     background: -webkit-linear-gradient(#ff00f7,#00d0ff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .icon{
