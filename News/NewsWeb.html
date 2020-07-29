@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="newsWebStyle.css">
+<script>
+function startTime(){
+  var today=new Date();
+  var h=today.getHours();
+  var m=today.getMinutes();
+  var s=today.getSeconds();
+ var next="AM";
+ if (h==0) {
+   h=12;
+ }
+ if (h>12) {
+   h=h-12;
+   next="PM";
+ }
+ h=(h<10)?"0"+h:h;
+ m=(m<10)?"0"+m:m;
+ s=(s<10)?"0"+s:s;
+ var time=h+":"+m+":"+s+" "+next;
+ document.getElementById("clock").innerText=time;
+ document.getElementById("clock").textContent=time;
+ setTimeout(startTime,1000);
+ }
+startTime();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<h3 id='breakingNews'><font color='white'>Breaking News</font></h3>
+
+
+<marquee behavior="" direction="right"><a class="dot"></a><font size='4rem' color='white'>আমাদের নতুন ওয়েবসাইট এ স্বাগতম।</font> </marquee>
+<body onload="startTime()">
+
+  <div id="clock"></div>
+<img src="imageedit_36_3849605858.png" width="400px" height="100px" alt=""><br><br>
+    <nav class="navbar navbar-expand-lg p-0 ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h4 id="spanDate"></h4>
+
+
+
+      <script type="text/javascript">
+        var months = ['January','February','March','April','May','June','July',
+'August','September','October','November','December'];       
+var tomorrow = new Date();
+tomorrow.setTime(tomorrow.getTime() + (1000*3600));       
+document.getElementById("spanDate").innerHTML = tomorrow.getDate() + " " +months[tomorrow.getMonth()] + ", " + tomorrow.getFullYear();
+
+
+
+ </script>
+</body>
+</html>
+						

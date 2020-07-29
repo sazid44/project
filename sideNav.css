@@ -6,7 +6,7 @@
 .div{ 
     background-color: #ffce69;
     width: 170px;
-    height: 657px;
+    height: 597px;
     transition: all .2s;
  }
 
@@ -59,4 +59,16 @@ iframe{
     left: 400px;
     border: 10px solid indianred;
     border-radius: 20px;
+}
+progress{
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
+#show{
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
 }
