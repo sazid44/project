@@ -34,30 +34,35 @@ img{
    transform: translateX(-60px);
     object-fit: cover;
     }
+  
 h4{
-    color: #ff5504;
+    color: #000000;
     float: right;
-    transform: translate(-10px,-130px);
+    transform: translate(-69px,-131px);
+    background-color: #ffffff;
 }
 #clock{
     position: absolute;
+    text-align: center;
     right: 0px;
     color: #00c4ff;
     font-family: Orbitron;
     letter-spacing: 7px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
+    background-color: #383333;
+    width: 280px;
 }
 marquee{
     position: absolute; top: 100px; background-color: rgb(49, 44, 44); padding: 8px; width:100%; font-family: 'Galada', cursive;
-    box-sizing: border-box;
+    box-sizing: border-box; color: white;
 }
 #breakingNews{
-    height: 43px;
+    height: 40px;
     text-align: center;
     position: absolute;
     top: 100px;
-    right: 1166.5px; 
+    right: 1270px; 
     z-index: 1;
     background-color: red; 
      padding: 5px;
@@ -68,9 +73,54 @@ marquee{
   width: 20px;
   background-color: transparent;
   border-radius: 50%;
-  transform: translate(-28px,5px);
-  margin-right: 20px;
+  transform: translate(-28px,3px);
+  margin-right: 10px;
+  display: inline-block;
   border: 2px solid white;
   position: absolute;
 
 }
+#logo{
+    position:absolute;
+    left: 400px;
+}
+@media(max-width:500px){
+    #logo{
+        display: none;
+    }
+    #clock{
+        display: none;
+    } 
+    #spanDate{
+        display: none;
+    }
+    img{
+  transform: translateX(-50px);
+    }
+    marquee{
+        width: 100%;
+        line-height: 85px;
+        height: 70px;
+        font-size: 15px;
+        color: white;
+    }
+    .dot{
+        height: 15px;
+        width: 15px;
+        transform: translate(-20px,37px);
+    }
+ 
+    marquee::before{
+        content: "Breaking News";
+        position: absolute;
+        top: -30px;
+        left: 90px;
+        background-color: red;
+        height: 60px;
+        z-index: 1;
+        color: rgb(255, 253, 253);
+        font-size: 1.5rem;
+    }
+  
+}
+
