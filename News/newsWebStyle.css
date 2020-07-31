@@ -1,34 +1,20 @@
 .navbar{
     position: relative;
-    top: 20px;
-}
-.collapse{
-display: flex;
-justify-content: flex-end;
-}
-.nav-item{
-    text-align: center;
-    width: 100px;
-}
-.nav-item:hover{
-    box-sizing: border-box;
-    background-color:rgba(48, 43, 43, 0.171) ;
-    border-bottom: 4px solid red;
+    top: 17px;
+    padding: 10px;
 }
 .nav-link{
-    box-sizing: border-box;
-    padding: 15px;
+    padding: 0;
 }
-a{
-color: black;
-}
-a:hover{
-color: black; 
-}
+.nav-link:hover{
+   color: white !important;
+    }
 
-.navbar{
-    height: 55px;
-    border-bottom: 1px solid #0003;
+.fa-2x {
+    font-size: 1.5em !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 80%);
 }
 img{
    transform: translateX(-60px);
@@ -38,7 +24,9 @@ img{
 h4{
     color: #000000;
     float: right;
-    transform: translate(-69px,-131px);
+    position: relative;
+    top: -128px;
+    right: 65px;
     background-color: #ffffff;
 }
 #clock{
@@ -54,7 +42,7 @@ h4{
     width: 280px;
 }
 marquee{
-    position: absolute; top: 100px; background-color: rgb(49, 44, 44); padding: 8px; width:100%; font-family: 'Galada', cursive;
+    position: absolute; top: 100px; background-color: rgb(28, 123, 212); padding: 8px; width:100%; font-family: 'Galada', cursive;
     box-sizing: border-box; color: white;
 }
 #breakingNews{
@@ -123,4 +111,8 @@ marquee{
     }
   
 }
+.bg-light {
+    background-color: #151919!important;
+}
+
 
