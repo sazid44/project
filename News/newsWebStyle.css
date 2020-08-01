@@ -42,8 +42,8 @@ h4{
     width: 280px;
 }
 marquee{
-    position: absolute; top: 100px; background-color: rgb(28, 123, 212); padding: 8px; width:100%; font-family: 'Galada', cursive;
-    box-sizing: border-box; color: white;
+    position: absolute; top: 100px; background-color: rgb(0 0 0 / 79%); padding: 8px; width:100%; font-family: 'Galada', cursive;
+    box-sizing: border-box; color: rgb(255, 255, 255);
 }
 #breakingNews{
     height: 40px;
@@ -52,7 +52,7 @@ marquee{
     top: 100px;
     right: 1270px; 
     z-index: 1;
-    background-color: red; 
+    background-color: rgb(238, 23, 23); 
      padding: 5px;
 
 }

@@ -1,0 +1,41 @@
+detail_holder {
+    position: relative;
+}
+.row {
+  position: relative;
+  margin: 100px;
+  left: 200px;
+    clear: both;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col, .row, body, html {
+    width: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, a {
+    outline: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Kiron, SolaimanLipi, Arial, Vrinda, FallbackBengaliFont, Helvetica, sans-serif !important;
+}
+body, html {
+    font-size: 14px;
+    background: #f0f0ed;
+    color: #333;
+    cursor: default;
+    line-height: 24px;
+    min-height: 100%;
+    position: absolute;
+}
+body {
+    font-family: SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif;
+}
