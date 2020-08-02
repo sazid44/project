@@ -1,0 +1,27 @@
+body{
+    background-image: url("/News/images/1.jpg");
+}
+.navbar{
+    background-color: #fff;
+    height: 90px;
+    border-bottom: 2px solid #0083cb; 
+   border-top: 1px solid #0083cb; 
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.6);
+}
+img{
+object-fit: cover;
+}
+.w3-btn, .w3-button {
+color:#00000080 ; 
+}
+.w3-dropdown-content{
+   
+width: 1145px; 
+transform: translate(-465px,-3px);
+border: 1px solid #0083cb;
+}
+.nav-link{
+    padding: 25px;
+    font-size: 20px;
+    color: #0083cb;
+}
