@@ -1,7 +1,6 @@
-body{
-    background-image: url("/News/images/1.jpg");
-}
+
 .navbar{
+  
     background-color: #fff;
     height: 90px;
     border-bottom: 2px solid #0083cb; 
@@ -15,13 +14,136 @@ object-fit: cover;
 color:#00000080 ; 
 }
 .w3-dropdown-content{
-   
 width: 1145px; 
 transform: translate(-465px,-3px);
 border: 1px solid #0083cb;
 }
 .nav-link{
     padding: 25px;
-    font-size: 20px;
+    font-size: 17px;
     color: #0083cb;
+}
+.poster{
+    position: relative;
+    margin: 20px;
+    top: 100px;
+    left: 50px;
+    width: 266px;
+    height: 165px;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 2px solid rgba(255 255 255);
+    transition: all .4s ease-out;
+    text-align: center;
+   
+}
+
+.poster:hover{
+    border: 2px solid #3FA6F0;
+    box-shadow: 2px 2px 20px  #3FA6F0;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+#main{
+ display: flex;
+ flex-direction: row;
+}
+.master_about_title {
+    text-align: center;
+    padding-bottom: 35px;
+    position: relative;
+    top: 100px;
+}
+.master_about_title p {
+    color: #666;
+    font-weight: 500;
+}
+.master_about_title h2 {
+    color: #0063cc;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+h2 {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: Poppins;
+}
+.master_about_title h2:after {
+    content: "";
+    position: absolute;
+    width: 99px;
+    bottom: -10px;
+    height: 3px;
+    background: url(//www.akij.net/wp-content/themes/akij-Jute-Mills-Ltd/assets/css/../img/title-border.png);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-size: contain;
+}
+p {
+       margin-bottom: 0rem;
+}
+.single-brand {
+    position: relative;
+    top: 100px;
+    left:10%;
+
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    width: 222px;
+   
+}
+.single-brand:hover p{
+    background-color:rgb(61, 139, 240);
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.single-brand:hover .blue-font{
+    background-color:red;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+a > .brand-img-box {
+    background-color: #fff;
+    border: 1px solid #50c6ef;
+    border-radius: 6px;
+ 
+    box-shadow: 0 10px 8px -9px rgba(32, 166, 240, 0.75);
+    padding: 30px;
+}
+.content-box {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 12px;
+    box-shadow: 0 10px 8px -9px rgba(32, 166, 240, 0.75);
+     box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.71); 
+ 
+}
+.read-more a {
+    border-top: 1px solid #e1e1e1;
+    display: block;
+    font-weight: bold;
+    height: 25px;
+    line-height: 0;
+    padding: 25px 0;
+   
+}
+.blue-font {
+    color: #1081c0;
+}
+a {
+    color: #111111;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
 }

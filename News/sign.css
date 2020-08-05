@@ -96,7 +96,9 @@ form{
 	
 }
 .p-icon img{
-	height: 122px;
+	height: 100px;
+	width: 92px;
+	transform: translateX(6px);
 }
 .user-inputs{
 	display: flex;

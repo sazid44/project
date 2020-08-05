@@ -17,8 +17,7 @@
     color: rgb(255 255 255 / 80%);
 }
 img{
-   transform: translateX(-60px);
-    object-fit: cover;
+   object-fit: cover;
     }
   
 h4{
@@ -30,7 +29,7 @@ h4{
     background-color: #ffffff;
 }
 #clock{
-    position: absolute;
+    position: fixed;
     text-align: center;
     right: 0px;
     color: #00c4ff;
